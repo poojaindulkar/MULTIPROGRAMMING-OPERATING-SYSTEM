@@ -28,7 +28,7 @@ This repository contains the implementation of a virtual multiprogramming operat
   - Boolean Toggle (C): A one-byte register that can hold either 'T' (true) or 'F' (false).
   - Instruction Counter (IC): A two-byte register that keeps track of the current instruction's address.
     
-   ![Virtual user machine](https://github.com/poojaindulkar/MULTIPROGRAMMING-OPERATING-SYSTEM/assets/98650416/4607f5a6-cd70-4376-97ad-b249ef437302)
+   ![Virtual user machine](https://github.com/poojaindulkar/MULTIPROGRAMMING-OPERATING-SYSTEM/blob/main/Virtual%20user%20machine.png?raw=true)
     
 - Instruction: Instructions are divided into two parts:
   - Operation Code (Opcode): The two high-order bytes of the word represent the operation code of an instruction.
