@@ -28,9 +28,9 @@
   ## Instruction Set
   
   
-     |       Instruction             |                                         |
-     |                               |            Description                  |
-     |   Opcode    |    Operand      |                                         |
+    
+     |       Instruction             |                              
+     |   Opcode    |    Operand      |            Description                  |
      |-------------|-----------------|-----------------------------------------|
      | GD          |       -         | Read the first 40 columns of a card     |
      | PD          |       -         | Print a new line of 40 characters       |
