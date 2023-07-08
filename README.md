@@ -19,17 +19,17 @@
   - Boolean Toggle (C): A one-byte register that can hold either 'T' (true) or 'F' (false).
   - Instruction Counter (IC): A two-byte register that keeps track of the current instruction's address.
     
-    ![Virtual User Machine](Virtual user machine.png)
+    ![Virtual User Machine]([Virtual user machine.png](https://github.com/poojaindulkar/MULTIPROGRAMMING-OPERATING-SYSTEM/blob/main/Virtual%20user%20machine.png?raw=true))
     
 - Instruction: Instructions are divided into two parts:
   - Operation Code (Opcode): The two high-order bytes of the word represent the operation code of an instruction.
   - Operand Address: The two low-order bytes of the word indicate the address of the operand in the storage.
     
   ## Instruction Set
-  
+
   
     
-     |       Instruction             |                              
+           Instruction                                          
      |   Opcode    |    Operand      |            Description                  |
      |-------------|-----------------|-----------------------------------------|
      | GD          |       -         | Read the first 40 columns of a card     |
