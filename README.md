@@ -7,7 +7,7 @@
 - Random memory allocation for program card used using paging.
 
   
-*MACHINE SPECIFICATIONS
+## MACHINE SPECIFICATIONS
   The MOS computer is described from two points of view: the “virtual” machine seen by the
   typical user and the “real” machine used by the MOS designer/implementer.
 
@@ -19,14 +19,17 @@
   - Boolean Toggle (C): A one-byte register that can hold either 'T' (true) or 'F' (false).
   - Instruction Counter (IC): A two-byte register that keeps track of the current instruction's address.
     
+    ![Virtual User Machine](Virtual user machine.png)
+    
 - Instruction: Instructions are divided into two parts:
   - Operation Code (Opcode): The two high-order bytes of the word represent the operation code of an instruction.
   - Operand Address: The two low-order bytes of the word indicate the address of the operand in the storage.
     
   ## Instruction Set
   
+  
      |       Instruction             |                                         |
-     |-------------------------------|            Description                  |
+     |                               |            Description                  |
      |   Opcode    |    Operand      |                                         |
      |-------------|-----------------|-----------------------------------------|
      | GD          |       -         | Read the first 40 columns of a card     |
@@ -40,7 +43,7 @@
 
    
 
-* Tools used
+## Tools used
 - Gcc compiler
 - Gdb
 
